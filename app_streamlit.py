@@ -423,7 +423,7 @@ elif menu == "Evaluasi Model":
     st.subheader("📊 Perbandingan Error Model")
 
     error_metrics = [
-        c for c in ["MAE", "RMSE", "MAPE"]
+        c for c in ["MAE", "RMSE"]
         if c in metrics_df.columns
     ]
 
@@ -439,7 +439,7 @@ elif menu == "Evaluasi Model":
             color="variable",
             barmode="group",
             text_auto=True,
-            title="Perbandingan MAE, RMSE dan MAPE"
+            title="Perbandingan MAE, RMSE"
         )
 
         st.plotly_chart(
