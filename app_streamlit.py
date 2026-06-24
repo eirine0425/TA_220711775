@@ -78,7 +78,8 @@ location_coords = {
     "Tempel, Sleman": (-7.6500, 110.3230),
     "Turi, Sleman": (-7.6530, 110.3690),
     "Jombor, Sleman": (-7.7470, 110.3620),
-    "Sidoarum, Sleman": (-7.7630, 110.3320)
+    "Sidoarum, Sleman": (-7.7630, 110.3320),
+    "Kasihan, Bantul": (-7.4937, 110.1945)
 }
 
 # =========================
